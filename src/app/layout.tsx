@@ -5,7 +5,7 @@ import {Metadata} from 'next'
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_URL || ''),
   viewport: 'width=device-width, initial-scale=1',
-  title: 'Dugnad Lotteri',
+  title: 'Dugnad spill',
   description: 'App som la deg selge lotteri billett med Vipps betaling. Du bestemmer når trekningen skjer og premiene selv.',
   icons: {
     icon: '/main-ico.png',
